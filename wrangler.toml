@@ -1,8 +1,8 @@
-name = "jojomemes"
+name = "jojo"
 main = "server/index.ts"
 compatibility_date = "2022-06-01"
 
-routes = ["jojo.julianbuse.com/*"]
+workers_dev = true;
 
 [build]
 command = "npm run build"
