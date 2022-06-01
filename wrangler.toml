@@ -1,0 +1,11 @@
+name = "jojomemes"
+main = "server/index.ts"
+compatibility_date = "2022-06-01"
+
+routes = ["jojo.julianbuse.com/*"]
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = "./dist"
